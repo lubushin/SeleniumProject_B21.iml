@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utilities.WebDriverFactory;
 
-public class P1_CssSelector_Practice {
+public class P1_Xpath_CssSelector_Practice {
 
     public static void main(String[] args) {
         //TC #1: PracticeCybertek.com_ForgotPassword WebElement verification
