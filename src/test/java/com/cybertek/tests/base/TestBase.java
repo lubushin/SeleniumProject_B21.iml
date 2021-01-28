@@ -8,14 +8,13 @@ import utilities.WebDriverFactory;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
-    public WebDriver driver;
+    public static WebDriver driver;
     @BeforeMethod
     public void setup(){
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
-
     @AfterMethod
     public void teardown(){
         sleep(5);

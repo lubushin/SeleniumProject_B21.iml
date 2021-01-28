@@ -15,5 +15,6 @@ MethodVerifyOrder.verifyOrderSBC(driver, "Mark Red");
 sleep(2);
 
 RemoveNameMethod.removeName(driver,"Mark Smith");
+
     }
 }
